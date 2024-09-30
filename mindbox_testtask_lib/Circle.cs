@@ -5,7 +5,6 @@ public class Circle : IGeometryShape
     private int _radius;
     private double _area;
 
-    public Circle() { }
     public Circle(int radius)
     {
         _radius = radius;
@@ -16,7 +15,6 @@ public class Circle : IGeometryShape
 
     #region IGeometryShape
     public double Area => _area;
-
     #endregion
 
 }
